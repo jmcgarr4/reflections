@@ -14,10 +14,17 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+- Branches are helpful whenever I want to make large scale edits to try something new, but don't want to lose what I already have, or when I want to share a part of the work but potentially not all of it.
+
 How do the diagrams help you visualize the branch structure?
+
+- The diagrams are most important in visualizing the parent/child connection between the different commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+- The two branches almost become 1, though parent pointers are maintained. The diagram shows the tips merging together because both branches now have the same hhead.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+- Automatically merging is much faster and easier. The downside is that git will no automatically know which changes to keep if there are conflicts, and we need to just trust that it works.
