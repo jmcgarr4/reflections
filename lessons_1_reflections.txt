@@ -3,5 +3,20 @@ It was still necessary to read through the code for each file,
 but at least it was doable manually.
 It would have been even better if the differences were highlighted within the lines.
 
-Update: Having easy access to the history of the file will allow me to much more easily correct all of the mistakes that I will inevitably make!
-Yeah.
+Update: Having easy access to the history of the file will allow me to much more easily correct all of the mistakes that I will inevitably make.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- Pros of manually choosing when to commit: avoidance of tiny commits, ability to make 1 commit per logical change, save space by not having a million files
+Cons of manually choosing when to commit: chance to forget to commit and lose work
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Git was created by, and for, people who deal with multiple files in a project, in particular multiple files which might impact each other. The other tools were not built to deal with multiple files in this way, likely because (1) it is more complicated, (2) it is not a typical approach for the average user, and (3) it could potentially take up more space (by saving all files at each commit).
+
+How can you use the commands git log and git diff to view the history of files?
+- This seems like a silly question. I can see all the commits in the log, and then compare one commit to another with diff
+
+How might using version control make you more confident to make changes that could break something?
+- I would have the confidence to change anything, and then simply back-up in case it didn't work the way that I wanted it to.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- At first, I'm going to use git with my machine learning nanodegree course -- first step will be to clone the repo for the first real project. In the future, I hope to use it for personal projects of my own -- like modeling.
