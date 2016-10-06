@@ -1,7 +1,0 @@
-Instead of reading through thousands of lines, the diff command helpfully displayed the differences.
-It was still necessary to read through the code for each file,
-but at least it was doable manually.
-It would have been even better if the differences were highlighted within the lines.
-
-Update: Having easy access to the history of the file will allow me to much more easily correct all of the mistakes that I will inevitably make!
-Yeah.
